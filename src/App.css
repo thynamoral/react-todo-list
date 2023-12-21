@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  width: 100%;
+}
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.app {
+  width: 100%;
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.45);
+  border-radius: 1rem;
+  overflow: hidden;
+  padding-bottom: 2rem;
+}
+
+header,
+main {
+  padding: 2.7rem 4rem;
+}
+
+header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: #0066ff;
+}
+
+.header-title {
+  color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+  header,
+  main {
+    padding: 1.5rem;
+  }
+}

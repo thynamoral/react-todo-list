@@ -1,0 +1,32 @@
+.form-input {
+  display: flex;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.form-input input,
+.form-input button {
+  padding: 0.8rem 1.6rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.form-input button:hover {
+  color: #0066ff;
+}
+
+.form-input input {
+  flex: 1;
+}
+
+.form-input input:focus {
+  outline-color: #999;
+}
+
+@media screen and (max-width: 500px) {
+  .form-input {
+    gap: 1rem;
+    padding: 0;
+  }
+}
