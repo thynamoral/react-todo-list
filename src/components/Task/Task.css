@@ -1,0 +1,21 @@
+.todo-task {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 1.5rem;
+  padding: 0.8rem 1.6rem;
+  background-color: #eee;
+}
+
+.task {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.task-done {
+  text-decoration: line-through;
+  text-decoration-color: #d62828;
+}

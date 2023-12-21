@@ -1,0 +1,16 @@
+.functional-button {
+  font-size: 2.2rem;
+  display: flex;
+  gap: 1.5rem;
+  position: relative;
+  top: 2px;
+  cursor: pointer;
+}
+
+.finish-button:hover {
+  color: #70e000;
+}
+
+.delete-button:hover {
+  color: #d62828;
+}
