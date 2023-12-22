@@ -19,7 +19,8 @@ body {
 
 .app {
   width: 100%;
-  max-width: 550px;
+  max-width: 55rem;
+  min-height: 60rem;
   display: flex;
   flex-direction: column;
   background-color: #fff;
